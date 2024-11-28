@@ -44,9 +44,9 @@ public class BaseClass
 
 		if(browsername.equalsIgnoreCase("chrome"))
 		{
-			ChromeOptions options =new ChromeOptions();
-			options.addArguments("headless");
-			driver=new ChromeDriver(options);
+			//ChromeOptions options =new ChromeOptions();
+			//options.addArguments("headless");
+			driver=new ChromeDriver();
 		}
 		else if(browsername.equalsIgnoreCase("firefox"))
 		{//firefox driver code
